@@ -1,0 +1,38 @@
+# Finding-Palindrome-in-Substring
+finding palindrome in substring of more than one string where problem is like:
+
+Problem: Liitle pony has 3 strings A,B and C , Now he selects a non-empty substring a of A, 
+a non empty dtring b of B and non empty substring c of C. Consider the string s=a+b+c. Little
+Pony wants s to be a palindrome. Here p+q is he cancatenation of p and q.
+Help little pony to find if he can selecte some a, b and c so that s is a palindrome.
+
+=> All the string are in lower case.
+
+=> OUTPUT: Return 1 if little pony find palindrome and 0 otherwise.
+
+=>Example Input:  
+	input1:
+			A:"maccb"
+			B:"pccgh"
+			C:"absa"
+			
+	input2:
+			A:"a"
+			B:"a"
+			C:"c"
+			
+=>Example input1 Explaination:
+	One of the possible ways to selected a,b and c is-
+		a="accb"
+		b="cc"
+		c="a"
+		s=a+b+c="accbcca" which is a palindrome.
+	
+=>Output of input1:
+		return 1
+	
+=>Example input2 Explaination:
+	We can;t select any valid a,b and c.
+	
+=>Output of input2:
+		return 0	
